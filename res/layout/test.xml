@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:columnCount="1"
+    android:orientation="horizontal" >
+
+     <de.unikoblenz.west.lkastler.timeslider.TimesliderView
+         android:id="@+id/TestView"
+         android:layout_width="match_parent"
+         android:layout_height="99dp"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true" />
+
+     <TextView
+         android:id="@+id/info"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/TestView"
+         android:text="@string/init"
+         android:textAppearance="?android:attr/textAppearanceSmall" />
+
+     <TextView
+         android:id="@+id/fieldA"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_centerVertical="true"
+         android:text="@string/init"
+         android:textAppearance="?android:attr/textAppearanceLarge" />
+
+     <TextView
+         android:id="@+id/fieldB"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/fieldA"
+         android:text="@string/init"
+         android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>
